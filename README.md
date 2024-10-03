@@ -19,7 +19,8 @@ python data_extraction.py --model_name bert_ner_praqs --pdf_file data/test.pdf
 The components of the script are in following files:
 
 
-1- token_processor.py: TokenProcessor class handles token processing, including Sub-token combination, Detection of blended material terms, Processing of delimiters (/, +, -) in material names.
+#### token_processor.py:
+TokenProcessor class handles token processing, including Sub-token combination, Detection of blended material terms, Processing of delimiters (/, +, -) in material names.
 
 
 2- material_processor.py: MaterialProcessor class extracts materials, their reinforcing materials, their property value pairs, and comparisons
