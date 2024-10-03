@@ -10,7 +10,7 @@ The script for extracting data using the model combined with heuristic rules can
 
 ```bash
 python data_extraction.py --model_name <model_name> --pdf_file <path_to_pdf_file>
-
+```
 Example Usage:
 python data_extraction.py --model_name bert_ner_praqs --pdf_file data/test.pdf
 
