@@ -23,14 +23,16 @@ The components of the script are in following files:
 TokenProcessor class handles token processing, including Sub-token combination, Detection of blended material terms, Processing of delimiters (/, +, -) in material names.
 
 
-2- material_processor.py: MaterialProcessor class extracts materials, their reinforcing materials, their property value pairs, and comparisons
+### material_processor.py: 
+MaterialProcessor class extracts materials, their reinforcing materials, their property value pairs, and comparisons
 
 
-3- core_components.py: It contains core classes like SentenceProcessing for sentence parsing and AutomotivePartFinder for automotive part extraction
+### core_components.py: 
+It contains core classes like SentenceProcessing for sentence parsing and AutomotivePartFinder for automotive part extraction
 
 
-4- material_property_finder.py: MaterialPropertyFinder Class extracts material properties and their values
+### material_property_finder.py: 
+MaterialPropertyFinder Class extracts material properties and their values
 
-
-
-preprocessing.py can be used to preprocess the whole corpus. some componnents of the class are also called in data_extraction script to load and clean the pdf before extraction.
+### preprocessing.py 
+It can be used to preprocess the whole corpus. some componnents of the class are also called in data_extraction script to load and clean the pdf before extraction.
