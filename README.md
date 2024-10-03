@@ -12,7 +12,9 @@ The script for extracting data using the model combined with heuristic rules can
 python data_extraction.py --model_name <model_name> --pdf_file <path_to_pdf_file>
 ```
 Example Usage:
+```bash
 python data_extraction.py --model_name bert_ner_praqs --pdf_file data/test.pdf
+```
 
 The components of the script are in following files:
 1- token_processor.py: TokenProcessor class handles token processing, including Sub-token combination, Detection of blended material terms, Processing of delimiters (/, +, -) in material names.
