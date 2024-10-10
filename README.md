@@ -1,4 +1,4 @@
-# Extraction-of-thermoplastic-informatio-from-scientific-publications
+# Extraction-of-thermoplastic-information-from-scientific-publications
 
 The script to train the model on annotated dataset is model_training.py
 
